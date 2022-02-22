@@ -1,0 +1,269 @@
+* {
+  font-family: "Akaya Telivigala", sans-serif;
+  position: relative;
+}
+
+body, html {
+  background-color: #C9E3E5;
+}
+
+.nav_inside {
+  background-color: #0D89E6;
+}
+
+.title {
+  font-size: 50px;
+  margin-right: 350px;
+  padding: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  margin-right: 0%;
+  display: inline-flex;
+}
+
+.button {
+  display: inline-block;
+  font-size: 50px;
+  padding: 10px;
+}
+
+.content1 {
+  position: relative;
+  background-color: #C9E3E5;
+}
+
+.iconplayGame {
+  width: 400px;
+  position: absolute;
+  left: 50%;
+  top: -1000px;
+  transform: translateX(-50%) translateY(0%);
+}
+
+.start {
+  font-size: 40px;
+  position: absolute;
+  width: 200px;
+  left: 50%;
+  top: -600px;
+  transform: translateX(-50%) translateY(0%);
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: red;
+  cursor: pointer;
+}
+
+.content2 {
+  position: relative;
+  opacity: 0;
+  top: -1000px;
+}
+
+.hint {
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+}
+
+.content2_title {
+  font-size: 60px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.content2_english {
+  top: 10px;
+  left: 20%;
+  opacity: 0;
+}
+
+.content2_pollute {
+  top: 50px;
+  left: 40%;
+  opacity: 0;
+}
+
+.content2_apple {
+  top: -80px;
+  left: 150%;
+  opacity: 0;
+}
+
+.content2_run {
+  top: -80px;
+  left: 250%;
+  opacity: 0;
+}
+
+.content2_computerFather {
+  top: 30px;
+  left: 150%;
+  opacity: 0;
+}
+
+.content2_aiFather {
+  top: -30px;
+  left: 50%;
+  opacity: 0;
+}
+
+.content2_king {
+  top: 50px;
+  left: 30%;
+  opacity: 0;
+}
+
+.content2_gay {
+  top: -10px;
+  left: 180%;
+  opacity: 0;
+}
+
+.content2_imoitation {
+  top: -600px;
+  left: 250%;
+  opacity: 0;
+}
+
+.hintBox {
+  font-size: 20px;
+  position: absolute;
+  width: 200px;
+  left: 300%;
+  top: 380px;
+  transform: translateX(-50%) translateY(0%);
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.answer {
+  font-size: 40px;
+  position: absolute;
+  width: 200px;
+  left: 300%;
+  top: 450px;
+  transform: translateX(-50%) translateY(0%);
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: red;
+  cursor: pointer;
+}
+
+.content3 {
+  position: relative;
+  opacity: 0;
+  top: -600px;
+}
+
+.iconAlanTuring {
+  width: 400px;
+  position: absolute;
+  left: 25%;
+  top: 60px;
+  transform: translateX(-50%) translateY(0%);
+}
+
+.introductions {
+  position: relative;
+  left: 45%;
+  top: 60px;
+}
+
+.content3_title {
+  font-size: 60px;
+}
+
+.content3_content {
+  font-size: 30px;
+}
+
+.quote1 {
+  font-size: 40px;
+}
+
+.nextPage {
+  font-size: 40px;
+  position: absolute;
+  width: 200px;
+  left: 30%;
+  top: 300px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: #0D89E6;
+  cursor: pointer;
+}
+
+.content4 {
+  position: relative;
+  opacity: 0;
+}
+
+.iconAlanTuring2 {
+  width: 500px;
+  left: 5%;
+  position: absolute;
+  top: 30px;
+}
+
+.context1 {
+  font-size: 40px;
+  font-weight: bold;
+  left: 43%;
+  top: 40px;
+}
+
+.context2 {
+  font-size: 40px;
+  font-weight: bold;
+  left: 43%;
+}
+
+.context3 {
+  font-size: 40px;
+  font-weight: bold;
+  left: 43%;
+}
+
+.context4 {
+  font-size: 40px;
+  font-weight: bold;
+  left: 43%;
+}
+
+.context5 {
+  font-size: 60px;
+  font-weight: bold;
+  left: 52%;
+  top: 0px;
+}
+
+.nextPage1 {
+  font-size: 40px;
+  position: absolute;
+  width: 200px;
+  left: 80%;
+  top: 450px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: #0D89E6;
+  cursor: pointer;
+}
